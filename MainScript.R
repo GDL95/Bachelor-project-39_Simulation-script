@@ -1,0 +1,7 @@
+this.dir <- dirname(parent.frame(2)$ofile)
+setwd(this.dir)
+source('#file location Preparation.R')
+source('#file location SimulationOneCell.R')
+source('#file location SimulationAllCells.R')
+source('#file location collectResults.R')
+source('#file location getErrors.R')
